@@ -1,7 +1,6 @@
 {
-  "name": "bun-ts",
-  "author": "dayblox",
-  "description": "Bun + TypeScript starter",
+  "name": "simple-trivia-api",
+  "author": "Lucas Castro",
   "scripts": {
     "start": "bun src/index.ts"
   },

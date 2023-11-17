@@ -20,6 +20,8 @@ Bun.serve({
 		return new Response(JSON.stringify(shuffledArray), {
 			headers: {
 				"Content-Type": "application/json",
+				"Access-Control-Allow-Origin": "*",
+				"Access-Control-Allow-Methods": "GET",
 			},
 		})
 	},
